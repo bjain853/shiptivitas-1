@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function HomeTab() {
+ const HomeTab=()=> {
   return (
     <header className="App-header">
       <div className="App-title">
@@ -14,3 +14,5 @@ export default function HomeTab() {
     </header>
   );
 }
+
+export default HomeTab
